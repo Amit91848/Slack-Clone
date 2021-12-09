@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: var(--slack-color);
+}
+
+ .header__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header__left > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.header__searchBar {
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.header__search {
+    flex: 0.4;
+    background: #421f44;
+    text-align: center;
+    display: flex;
+    padding: 0 50px;
+    color: gray;
+    bottom: 1px gray solid;
+    border-radius: 6px;
+}
+
+.header__right {
+    flex: 0.3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__right > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: 20px;
+}
