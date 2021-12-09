@@ -13,6 +13,4 @@ function Message({ timestamp, message, user, userImage }) {
     )
 }
 
-export default Message
-
-// {new Date(timestamp?.toDate().toUTCString())}
+export default Message;
